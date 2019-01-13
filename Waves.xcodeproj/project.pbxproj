@@ -11,6 +11,9 @@
 		B60598D821EBDF5C005536A4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60598D721EBDF5C005536A4 /* ViewController.swift */; };
 		B60598DA21EBDF5D005536A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B60598D921EBDF5D005536A4 /* Assets.xcassets */; };
 		B60598DD21EBDF5D005536A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B60598DB21EBDF5D005536A4 /* Main.storyboard */; };
+		B60598E621EBE00E005536A4 /* Renderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60598E521EBE00E005536A4 /* Renderer.swift */; };
+		B60598E821EBE293005536A4 /* Primitive.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60598E721EBE293005536A4 /* Primitive.swift */; };
+		B60598EA21EBE9CF005536A4 /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = B60598E921EBE9CF005536A4 /* Shaders.metal */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +24,9 @@
 		B60598DC21EBDF5D005536A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B60598DE21EBDF5D005536A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B60598DF21EBDF5D005536A4 /* Waves.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Waves.entitlements; sourceTree = "<group>"; };
+		B60598E521EBE00E005536A4 /* Renderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Renderer.swift; sourceTree = "<group>"; };
+		B60598E721EBE293005536A4 /* Primitive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Primitive.swift; sourceTree = "<group>"; };
+		B60598E921EBE9CF005536A4 /* Shaders.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Shaders.metal; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +65,9 @@
 				B60598DB21EBDF5D005536A4 /* Main.storyboard */,
 				B60598DE21EBDF5D005536A4 /* Info.plist */,
 				B60598DF21EBDF5D005536A4 /* Waves.entitlements */,
+				B60598E521EBE00E005536A4 /* Renderer.swift */,
+				B60598E921EBE9CF005536A4 /* Shaders.metal */,
+				B60598E721EBE293005536A4 /* Primitive.swift */,
 			);
 			path = Waves;
 			sourceTree = "<group>";
@@ -134,7 +143,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				B60598D821EBDF5C005536A4 /* ViewController.swift in Sources */,
+				B60598E621EBE00E005536A4 /* Renderer.swift in Sources */,
 				B60598D621EBDF5C005536A4 /* AppDelegate.swift in Sources */,
+				B60598E821EBE293005536A4 /* Primitive.swift in Sources */,
+				B60598EA21EBE9CF005536A4 /* Shaders.metal in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
